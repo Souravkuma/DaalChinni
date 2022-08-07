@@ -1,0 +1,39 @@
+.CartDetails{
+   padding: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.Cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1vw;
+}
+
+.Cart>i{
+    position: absolute;
+    right: 1vw;
+}
+.cartTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tableHeading, .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* grid-template-columns: 33% 33% 33% ; */
+    text-align: center;
+    margin: 5px 2px;
+    
+}
+hr{
+    width: 98vw;
+}
+.totalValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

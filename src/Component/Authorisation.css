@@ -1,0 +1,42 @@
+.Auth{
+    padding: .25vw;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .25vw;
+    margin-bottom: .5vw;
+}
+
+.head>i{
+    position: absolute;
+    left: 1vw;
+    font-weight: 800;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.input>input{
+    width: 90vw;    
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    padding: .5vw;
+}
+
+.submit>button{
+    background-color: rgb(59, 97, 59);
+    width: 50vw;    
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
